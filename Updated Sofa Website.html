@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofa Heaven Showroom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        nav {
+            background: #5a3e36;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+        }
+        h1, h2 {
+            color: #5a3e36;
+        }
+        .gallery img {
+            width: 250px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        form input, form textarea {
+            width: 300px;
+            padding: 8px;
+            margin: 5px 0;
+        }
+        footer {
+            background: #5a3e36;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Sofas</a>
+    <a href="#video">Showroom Tour</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+    <h1>Welcome to Sofa Heaven</h1>
+    <p>Your one-stop destination for stylish, comfortable, and affordable sofas. 
+    Explore our premium collection designed to bring comfort and elegance to your home.</p>
+</section>
+
+<!-- Image Gallery Section -->
+<section id="gallery" class="gallery">
+    <h2>Our Sofa Collection</h2>
+    <p>Browse our latest designs:</p>
+    <img src="https://www.leons.ca/cdn/shop/files/Shopify_JPEG-Dianna_II_83J50200_S_3Qtr_2e293d53-7aba-4933-a76c-9e6c648ea24c.jpg?pad_color=fff&v=1745868088&width=1920" alt="Modern Sofa">
+    <img src="https://www.leons.ca/cdn/shop/files/Shopify_JPEG-Lucie_43H51350_S_3Qtr_9d128141-0435-41ec-adb8-87e335c006cf.jpg?pad_color=fff&v=1745515649&width=1920" alt="Luxury Sofa">
+    <img src="https://www.leons.ca/cdn/shop/products/xg3yj1pabrcjmklopbou.jpg?pad_color=fff&v=1599763928&width=1500" alt="Sectional Sofa">
+    <img src="https://www.leons.ca/cdn/shop/files/Shopify_JPEG-Wilmington_13770S34_SLSCH.jpg?pad_color=fff&v=1758819152&width=1920" alt="Classic Sofa">
+</section>
+
+<!-- Video Section -->
+<section id="video">
+    <h2>Take a Showroom Tour</h2>
+    <p>Watch our showroom walkthrough:</p>
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/watch?v=UELVSZC06BE"
+        title="Showroom Tour"
+        frameborder="0"
+        allowfullscreen aly="Video has copyrights :)">
+    </iframe>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to place an order? Get in touch!</p>
+    
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Sofa Heaven Showroom | Designed for Comfort</p>
+</footer>
+
+</body>
